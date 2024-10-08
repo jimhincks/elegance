@@ -1,0 +1,11 @@
+{
+  "resourceName": "s3elegencejewllerystorage63fc7a6c",
+  "bucketName": "elegencejewllery-storage-63fc7a6c",
+  "policyUUID": "3e9989b5",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ]
+}

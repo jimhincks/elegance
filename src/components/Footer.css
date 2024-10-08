@@ -1,0 +1,13 @@
+/* Footer.css */
+
+.footer {
+  background-color: rgba(252, 132, 58, 0.49);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}

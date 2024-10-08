@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "elegenceJewllery",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authelegencejewllerybba8c717bba8c717",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-07-12T12:16:25.035Z"
+}

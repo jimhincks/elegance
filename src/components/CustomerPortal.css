@@ -1,0 +1,59 @@
+/* CustomerPortal.css */
+
+.customer-portal {
+  padding: 20px;
+}
+
+.customer-portal h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.customer-portal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customer-portal .design-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.customer-portal .design-item span {
+  flex: 1;
+  text-align: center;
+}
+
+.customer-portal .design-item button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.customer-portal .design-item button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .customer-portal .design-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .customer-portal .design-item button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

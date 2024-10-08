@@ -1,0 +1,25 @@
+/* Header.css */
+
+.header {
+  background-color: rgb(252, 132, 58, 0.49);
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}

@@ -1,0 +1,29 @@
+{
+  "jeweller": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-elegencejewllery-jeweller-dc81e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891376932758:role/amplify-elegencejewllery-jeweller-dc81e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891376932758:role/amplify-elegencejewllery-jeweller-dc81e-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-elegencejewllery-jeweller-dc81e-deployment",
+      "UnauthRoleName": "amplify-elegencejewllery-jeweller-dc81e-unauthRole",
+      "StackName": "amplify-elegencejewllery-jeweller-dc81e",
+      "StackId": "arn:aws:cloudformation:eu-west-1:891376932758:stack/amplify-elegencejewllery-jeweller-dc81e/3b8691b0-3fda-11ef-9e56-0232990aa18b",
+      "AmplifyAppId": "d35sc5lg8qktqh"
+    },
+    "categories": {
+      "auth": {
+        "elegencejewllerybba8c717bba8c717": {}
+      },
+      "function": {
+        "elegencejewllery56bff518CustomMessage": {
+          "deploymentBucketName": "amplify-elegencejewllery-jeweller-dc81e-deployment",
+          "s3Key": "amplify-builds/elegencejewllery56bff518CustomMessage-77506c4e39517a627158-build.zip"
+        }
+      },
+      "storage": {
+        "s3elegencejewllerystorage63fc7a6c": {}
+      }
+    }
+  }
+}

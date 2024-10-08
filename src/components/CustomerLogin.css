@@ -1,0 +1,53 @@
+/* CustomerLogin.css */
+
+.customer-login {
+  padding: 20px;
+}
+
+.customer-login h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer-login form div {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.customer-login form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.customer-login form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.customer-login form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.customer-login form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,11 @@
+type Customer @model @auth(rules: [{allow: public}, {allow: owner, operations: [read, update]}]) {
+  id: ID!
+  firstname: String
+  surname: String
+  email: AWSEmail
+  mobile: AWSPhone
+  address: String
+  dob: AWSDate
+  isactive: Boolean
+  ipaddress: AWSIPAddress
+} 

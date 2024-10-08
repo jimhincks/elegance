@@ -1,0 +1,65 @@
+/* DesignTool.css */
+
+.design-tool {
+  padding: 20px;
+}
+
+.design-tool h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.design-tool form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.design-tool form div {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.design-tool form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.design-tool form input,
+.design-tool form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.design-tool form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.design-tool form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .design-tool form div {
+    width: 100%;
+  }
+
+  .design-tool form button {
+    width: 100%;
+    padding: 15px;
+  }
+}
